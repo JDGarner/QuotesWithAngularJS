@@ -1,0 +1,20 @@
+<div ng-init="getRandomQuote()">
+
+  <div class="center-block text-center">
+
+  	<h2 class="bottomSpacing">Quotes with AngularJS</h2>
+
+  	<div class="aboutText bottomSpacing">
+		<p>This site contains a collection of nourishing quotes with which to stimulate your mind.</p>
+		<p>Feel free to add your own...</p>
+	</div>
+
+    <div class="panel panel-default allQuotesPanel">
+      <div class="panel-body quoteText">"{{quote.text}}"</div>
+        <div class="panel-footer authorText">{{quote.author}}</div>
+    </div>
+
+    <button type="button" class="btn btn-primary topSpacing" ng-click="getRandomQuote()">Give Me Another</button>
+
+  </div>
+</div>

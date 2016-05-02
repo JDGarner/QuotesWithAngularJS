@@ -1,0 +1,71 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.quoteText {
+	font-size: 16px;
+}
+
+.authorText {
+	color: #F06030;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.bulletDivider {
+	color: #F06030;	
+}
+
+.panel {
+	margin: 10px 0;
+}
+
+.quoteButtons {
+	display: none;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.allQuotesPanel{
+	position: relative;
+}
+
+.allQuotesPanel:hover .quoteButtons {
+	display: block;
+}
+
+.bottomSpacing {
+	padding-bottom: 25px;
+}
+
+.topSpacing {
+	margin-top: 25px;
+}
+
+.moreTopSpacing {
+	margin-top: 110px;
+}
+
+.aboutText {
+	font-size: 16px;
+}
+
+@media (max-width: 600px) {
+	.topSpacing {
+		margin-top: 10px;
+	}
+
+	.bottomSpacing {
+		padding-bottom: 10px;
+	}
+
+	h2 {
+		display: none;
+	}
+
+	.navbar {
+		margin-bottom: 40px;
+	}
+}
