@@ -1,5 +1,5 @@
 # QuotesWithAngularJS
-Simple CRUD app using the theme of philosophical quotes, created using MEAN stack. 
+Simple CRUD app using the theme of philosophical quotes, created using MEAN stack
 
 To run this application:
 
